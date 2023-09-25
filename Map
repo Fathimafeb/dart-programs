@@ -1,0 +1,14 @@
+void main(){
+ Map a={'name':'fathima','age':21,'place':'calicut'};
+  print(a);
+  print(a['name']);
+  print(a.length);
+  print(a['place']);
+  a.remove('age');
+  print(a);
+  a.clear();
+  print(a);
+  
+  
+}
+  

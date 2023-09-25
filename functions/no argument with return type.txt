@@ -1,0 +1,21 @@
+void main(){
+ var d= oddeven();
+  print(d);
+ 
+  
+}
+
+String oddeven(){
+  int n=6;
+  var result;
+  if(n%2==0){
+    result='even';
+    
+  }else{
+    result='odd';}
+    
+  return result ;
+  
+ 
+ 
+}
